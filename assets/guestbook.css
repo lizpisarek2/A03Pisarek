@@ -1,0 +1,9 @@
+body{
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
+}
+
+h1{
+    color: black;
+    font-size: 3em;
+    font-weight: 800;
+}

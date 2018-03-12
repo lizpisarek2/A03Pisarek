@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elizabeth Pisarek</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/
+    bootstrap.min.css">
+    <link rel="stylesheet"  type="text/css" href="PerWebCSS.css" />
+    <link rel="stylesheet" href="/guestbook.css">
+  </head>
+  <body>
+        <section>
+        <div id="bg">
+          <nav class="navbar">
+            <ul>
+              <li><a href="home.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+              <li><a href="guestbook.html">GUESTBOOK</a></li>
+            </ul>
+          </nav>
+        </div>
+        </section>
+        <body class="container">
+        <h1 id="guestbook">
+        Express Guestbook
+        <a href="/new-entry" class="btn btn-primary pull-right">
+        Write in the guestbook
+        </a>
+        </h1>
+        <h2>Write a new entry</h2>
+        <form method="post" role="form">
+        <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title"
+          name="title" placeholder="Entry title" required></div>
+        
+        <div class="form-group">
+        <label for="content">Entry text</label>
+        <textarea class="form-control" id="body" name="body"
+        placeholder="Love Express! It’s a great tool for
+        building websites." rows="3" required></textarea></div>
+        
+        <div class="form-group">
+        <input type="submit" value="Post entry" class="btn btn-primary"></div>
+        </form>
+      <footer>
+        <strong>Copyright &copy; 2018 Elizabeth Pisarek</strong>
+      </footer>
+  </body>
+  </html>
