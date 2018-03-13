@@ -1,7 +1,7 @@
 {
-    "name": "M07",
+    "name": "A03",
     "version": "0.0.1",
-    "description": "simple guestbook app",
+    "description": "A03 Website",
     "main": "gbapp.js",
     "dependencies": {
         "express": "latest",
@@ -9,11 +9,11 @@
         "body-parser": "latest",
         "ejs": "latest"
     },
-    "author": "Denise Case",
-    "homepage": "https://bitbucket.org/professorcase/m07",
+    "author": "Elizabeth Pisarek",
+    "homepage": "https://github.com/lizpisarek2",
     "repository": {
         "type": "git",
-        "url": "https://bitbucket.org/professorcase/m07"
+        "url": "https://github.com/lizpisarek2"
     },
     "license": "Apache-2.0"
 }
