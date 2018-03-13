@@ -15,7 +15,6 @@ var http = require('http').Server(app)  // inject app into the server
 // 6 respond with 404 if a bad URI is requested
 
 app.use(express.static(__dirname + '/assets'))
-app.use(express.static('public'))
 
 app.set("views", path.resolve(__dirname, "views")) // path to views
 app.set("view engine", "ejs") // specify our view engine
