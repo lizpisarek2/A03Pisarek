@@ -26,6 +26,15 @@ app.use(logger("dev"))     // app.use() establishes middleware functions
 app.use(bodyParser.urlencoded({ extended: false }))
 
 app.get("/", function (request, response) {
+  response.sendfile(__dirname+"/assets/home.html")
+})
+app.get("/about", function (request, response) {
+  response.sendfile(__dirname+"/assets/about.html")
+})
+app.get("/contact", function (request, response) {
+  response.sendfile(__dirname+"/assets/contact.html")
+})
+app.get("/index", function (request, response) {
   response.render("index")
 })
 app.get("/new-entry", function (request, response) {
@@ -42,7 +51,7 @@ app.post("/new-entry", function (request, response) {
     content: request.body.body,
     published: new Date()
   })
-  response.redirect("/")  // where to go next? Let's go to the home page :)
+  response.redirect("/index")  // where to go next? Let's go to the home page :)
 })
 
 app.use(function (request, response) {
